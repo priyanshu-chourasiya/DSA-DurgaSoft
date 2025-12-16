@@ -1,0 +1,24 @@
+Sum of first n natural numbers
+
+
+Algo:
+	1. first read n 
+	2. apply logic:
+		logic 1 :
+			loop
+			sum = 0
+			for(int i = 1; i <= n; i++){
+				sum += i;
+			}
+		logic 2 : 
+			recursion
+			int sum(int n){
+				if(n == 0){
+					return 1;
+				}
+				else{
+					return n*sum(n-1);
+				}
+			}
+		logic 3 :
+			math formule n*(n-1)/2
