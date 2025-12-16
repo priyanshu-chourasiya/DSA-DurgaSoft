@@ -1,0 +1,17 @@
+Even or odd
+
+Algo : 
+	1 read the number
+	2 check divisibility by 2
+		if yes : even 
+		else odd
+	3 print result
+	
+class Demo{
+	static boolean checkEvenOdd(int n){
+		if(n%2 == 0){
+			return true;
+		}
+		return false;
+	}
+}
