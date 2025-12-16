@@ -6,3 +6,36 @@ Logic 1 :
 	a = b;
 	b = c;
 
+import java.util.*;
+class Demo{
+	void swap(int a,int b){
+		int temp;
+		temp = a;
+		a = b;
+		b = temp;
+	}
+}
+class Test{
+	public static void main(String args[]){
+		System.out.println(Demo.swap(10,20));
+	}
+}
+
+Logic 2 : 
+	a = a + b;
+	b = a - b;
+	a = a - b;
+	
+Logic 3 :
+	a = a * b;
+	b = a / b;
+	a = a / b;
+
+Logic 4 :
+	a = a ^ b;
+	b = a ^ b;
+	a = a ^ b;
+
+Logic 5 : 
+	a = (a+b) - (b=a)
+	
