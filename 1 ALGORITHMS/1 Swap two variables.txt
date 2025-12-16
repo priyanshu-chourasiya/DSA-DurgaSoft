@@ -1,0 +1,8 @@
+Problem statement : 
+Algo to swap two integers : 
+
+Logic 1 : 
+	temp = a;
+	a = b;
+	b = c;
+
