@@ -1,0 +1,17 @@
+Max of two numbers : 
+
+Algo : 
+	1 Read two numbers 
+	2 Apply logic 
+		conditional logic
+		math logic
+	3 Print result
+	
+class Demo{
+	static int maximum(int a, int b){
+		return (a>b) ? a : b;
+	}
+	static int maximum2(int a, int b){
+		return Math.max(a,b);
+	}
+}
