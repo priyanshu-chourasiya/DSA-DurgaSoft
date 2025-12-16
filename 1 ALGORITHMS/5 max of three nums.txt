@@ -1,0 +1,10 @@
+Max of three numbers
+
+Algo:
+	1 read a,b and c from user
+	2.Logic:
+		using mannual method
+			(a > b && a > c) ? a : ((b > c) ? c : c)
+		using max function
+			return Math.max(Math.max(a,b),c)
+	3. print result
