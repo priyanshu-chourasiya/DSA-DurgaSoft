@@ -1,0 +1,26 @@
+Check number is prime or not
+
+Algo : 
+	1 Read the number
+	2 Logic:
+		logic 1 : 
+			factors = 0
+			for(int i = 1; i <= n; i++){
+				if(n%i == 0){
+					factors++;
+				}
+			}
+			if factors == 2 ? yes " no
+		logic 2 :
+			
+			boolean isPrime(int n, int i){
+				if(i == 1){
+					return 1;
+				}
+				else if(n%i == 0){
+					return false;
+				}
+				else{
+					return isPrime(int n,--i);
+				}
+			}
