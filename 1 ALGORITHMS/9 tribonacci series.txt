@@ -1,1 +1,18 @@
 Tribonacci series
+	
+	 0 1 2 3 6 11 20 37 ........
+	
+Algo : 
+		a = 0
+		b = 1
+		c = 2
+		al.add(0)
+		al.add(1)
+		al.add(2)
+		for(int i = 1; i <= n-3; i++){
+			d = a + b + c
+			al.add(d)
+			a = b;
+			b = c;
+			c = d;
+		}
