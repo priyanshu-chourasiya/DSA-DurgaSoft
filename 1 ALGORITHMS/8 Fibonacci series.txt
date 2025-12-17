@@ -1,1 +1,15 @@
 Fibonacci series
+Algo : 
+	Logic 1 :
+		a = 0
+		b = 1
+		al.add(a)
+		al.add(b)
+		for(int i = 1; i < n-2; i++){
+			c = a + b;
+			obj.add(c)
+			a = b;
+			b = c;
+		}
+		
+	Logic 2 : 

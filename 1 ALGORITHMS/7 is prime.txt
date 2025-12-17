@@ -13,7 +13,7 @@ Algo :
 			if factors == 2 ? yes " no
 		logic 2 :
 			
-			boolean isPrime(int n, int i){
+			boolean isPrime(int n, int i){ // i = n/2
 				if(i == 1){
 					return 1;
 				}
